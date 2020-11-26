@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+  }
+  .animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  .animate__bounceInLeft, .animate__bounceInRight{
+    --animate-duration: 1s;
+  }
+  .animate__fadeIn{
+    --animate-duration: 1s;
+  }
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  p{
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+  }
+  a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 160px 0 100px 0;
+    background-size: cover;
+    color: white;
+    text-align: right;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 3px;
+  }
+  .top-wrapper .borderbox{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0px 10px 30px 10px;
+    line-height: normal;
+  }
+  .view{
+    background-color: rgb(18,125,9)
+    
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    opacity: 0.8;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .active{
+    background-color: rgb(18,125,9)
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 62px;
+    width: 100%;
+    background-color: black;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 160px;
+    margin-top: 5px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 62px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: rgb(18,125,9);
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  /*section 1*/
+  .products-wrapper .heading{
+    text-align: center;
+  }
+  
+  .products-wrapper .section-title {
+    border-bottom: 2px solid rgb(18,125,9);
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #104d2d;
+    width: 100%;
+  }
+  .coffee-catalog{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .testimoni-catalog{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+  .products{
+    margin: 0 -5px;
+  }
+  
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+   padding: 16px;
+   text-align: center;
+   border-radius: 8px;
+   background-color:rgb(18,125,9);
+  }
+  .product-image img{
+    width: 200px;
+  }
+  
+  .description{
+    color: #ffffff;
+  }
+  
+  
+  .order{
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: black;
+  }
+  .products-wrapper{
+    padding-bottom: 80px;
+  }
+  
+  /* tesimoni wrapper */
+  .testimoni-wrapper{
+    text-align: center;
+    background-color: rgb(18,125,9);
+    color: white;
+    padding-bottom: 80px;
+  }
+  .testimoni-wrapper .section-title {
+    border-bottom: 2px solid #ffffff;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  .ava-image img{
+    border-radius: 50%;
+  }
+  /*Contact us CSS*/
+  
+  .section-title {
+    border-bottom: 2px solid rgb(18,125,9);
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #104d2d;
+    width: 100%;
+  }
+  
+  .contact-form {
+    background-color: #ececec;
+    color: #104d2d;
+    margin-top: 0;
+  }
+  
+  .contact-form .heading{
+    text-align: center;
+  }
+  
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    display: inline-block;
+  }
+  
+  
+  /*Footer CSS*/
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 1);
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
+  .footer-right a {
+    font-weight: normal;
+    font-size: 12px;
+    float: left;
+    margin-right: 25px;
+    color: white;
+  }
