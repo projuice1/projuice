@@ -1,0 +1,92 @@
+/* TABLET */
+@media screen and (max-width: 1000px){
+    .top-wrapper .borderbox{
+      width: 100%;
+    }
+  
+    .top-wrapper{
+      text-align: center;
+      padding-top: 140px;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+    }
+    .btn{
+      width: 100%;
+    }
+    .coffee-catalog{
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  /*Smartphone*/
+  @media screen and (max-width: 670px){
+    .top-wrapper{
+      text-align: center;
+      padding-top: 140px;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+    }
+    .top-wrapper h1 {
+      font-size: 30px;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+    }
+  
+    .header-right{
+      display: none;
+    }
+  
+    .menu-icon{
+      display: block;
+      cursor: pointer;
+    }
+  
+    .logo{
+      width: 124px;
+    }
+    .btn{
+      width: 100%;
+    }
+    .top-wrapper .borderbox{
+      width: 100%;
+    }
+    /*Responsive for contact us*/
+    .contact-form{
+      text-align: center;
+    }
+      .section-title {
+            font-size: 20px;
+          }
+  
+          .contact-form p {
+            font-size: 13px;
+          }
+  
+          input, textarea {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 13px;
+            border: 1px solid #dee7ec;
+          }
+  
+          footer{
+            text-align: center;
+          }
+    .coffee-catalog{
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .testimoni-catalog{
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
